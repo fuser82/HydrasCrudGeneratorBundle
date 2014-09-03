@@ -1,26 +1,30 @@
 {
-    "name": "mwsimple/crud-generator",
-    "description": "This bundle generates code cute for you",
+    "name": "hydras/crud-generator",
+    "description": "Crud Generator de Hydras C&S con Boostrap 3",
     "keywords": ["crud", "generator", "bootstrap"],
-    "homepage": "https://github.com/MWSimple/CrudGeneratorBundle",
+    "homepage": "https://github.com/fuser82/HydrasCrudGeneratorBundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
             "name": "Gonzalo Alonso",
             "email": "gonkpo@gmail.com"
+        },
+        {
+            "name": "Facundo Calvo",
+            "email": "facucalvo@gmail.com"
         }
     ],
     "require": {
         "symfony/symfony": "~2.3",
         "sensio/generator-bundle": "2.3.*",
         "knplabs/knp-paginator-bundle": "2.4.0",
-        "lexik/form-filter-bundle": "v2.0.2"
+        "lexik/form-filter-bundle": "v2.0.*"
     },
     "autoload": {
         "psr-0": { "MWSimple\\Bundle\\CrudGeneratorBundle": "" }
     },
-    "target-dir": "MWSimple/Bundle/CrudGeneratorBundle",
+    "target-dir": "Hydras/Bundle/CrudGeneratorBundle",
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
